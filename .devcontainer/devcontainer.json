@@ -25,8 +25,7 @@
 				"ms-python.autopep8"
 			]
 		}
-	},
-	"initializeCommand": ". ./devcontainer.env"
+	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},

@@ -10,3 +10,5 @@ services:
         USER_ID: ${USER_ID}
     volumes:
       - "${HOME}/.ssh:/home/${USER}/.ssh"
+    env_file:
+      - .devcontainer/devcontainer.env
